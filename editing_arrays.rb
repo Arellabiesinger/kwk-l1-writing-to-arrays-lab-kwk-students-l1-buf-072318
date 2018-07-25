@@ -8,7 +8,7 @@ def change_rainbow_colors
   RAINBOW_COLORS = [
   "red",
   "light_red",
-  "light_yellow"
+  "light_yellow"}
   # Write a solution that corrects the three colors in rainbow_colors, then returns the corrected array
 end
 
