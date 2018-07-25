@@ -12,7 +12,11 @@ def change_rainbow_colors
 end
 
 def add_colors
-  rainbow_colors = [RAINBOW_COLORS[3] ="green", RAINBOW_COLORS[4] = "blue"]
+  
+  rainbow_colors = change_rainbow_colors
+  rainbow_colors.push('green')
+  rainbow_colors.push('blue')
+  # [RAINBOW_COLORS[3] ="green", RAINBOW_COLORS[4] = "blue"]
   # Write a solution that adds "green", then "blue" to the rainbow_colors array, then returns the array
 end
 #Then we run our tests, these colors are printed out in order using a Ruby gem,
