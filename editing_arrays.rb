@@ -19,3 +19,5 @@ end
 #_colorize_. Our goal is to change this array so that it becomes "red",
 #"light_red", "light_yellow", "green", and "blue".  When printed, this will get
 #us the closest to a completed rainbow we can get in our terminal.
+
+puts add_colors
